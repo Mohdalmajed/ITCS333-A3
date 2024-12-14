@@ -1,0 +1,44 @@
+<!--
+Student Info:
+Name: Mohammed Mansoor Ebrahim | ID:202209552 | Section: 9 | Assignment #3 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahrain Students Data</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <!--Pico Css and its classes will handle everything for the design part and ensuring responsivness -->
+</head>
+
+<body>
+    <div class="container">
+        </br>
+        <h1>University of Bahrain Students Enrollment Data</h1>
+        <!-- Table to display the data while ensuring its responsiveness -->
+        <div class="overflow-auto">
+            <table class="striped">
+                <thead>
+                    <tr> <!-- The header of the table -->
+                        <th>Year</th>
+                        <th>Semester</th>
+                        <th>The Programs</th>
+                        <th>Nationality</th>
+                        <th>Colleges</th>
+                        <th>Number of Students</th>
+                    </tr>
+                </thead>
+                <tbody style='font-size: 0.825rem'> <!-- The body (data rows) of the table -->
+                    <!-- Data will be dynamically inserted here using from API retrival -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--The Javascript file that will fetch the API and get data-->
+    <script src="script.js"></script>
+</body>
+
+</html>
